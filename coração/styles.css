@@ -1,0 +1,53 @@
+body {
+    background: hsl(0, 11%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  
+  .coração {
+    position: relative;
+    width: 200px;  
+    height: 200px; 
+  }
+  .meio-esquerdo {
+    width: 115px;  
+    height: 120px; 
+    background: red;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+  }
+  
+  
+  
+  .meio-direito {
+    width: 115px;  
+    height: 130px; 
+    background: red;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+  }
+  
+  .meio-esquerdo {
+    left: 0;
+  }
+  
+  .meio-direito {
+    right: 0;
+  }
+  
+  .inferior {
+    width: 85px; 
+    height: 120px; 
+    background: red;
+    position: absolute;
+    top: 29px;
+    left: 39px;
+    transform: rotate(45deg);
+    border-radius: 10px;
+  }
